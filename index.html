@@ -13,7 +13,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
+    <!-- Navbar -->
+    <nav class="navbar bg-base-100 shadow-lg fixed top-0 z-50">
+      <div class="navbar-start">
+        <img src="../assets/logo.png" alt="Logo" class="h-12" />
+        <h1 class="text-xl font-bold ml-2 text-[#006747] leading-tight">
+          Emergency<br />
+          Hotline
+        </h1>
+      </div>
+      <div class="navbar-end gap-4">
+        <div class="flex items-center gap-4 bg-nav-icon">
+          <img src="../assets/heart.png" alt="Heart" class="h-6" />
+          <span id="heart-count">0</span>
+        </div>
+        <div class="flex items-center gap-4 bg-nav-icon">
+          <img src="../assets/coin.png" alt="Coin" class="h-6" />
+          <span id="coin-count">100</span>
+        </div>
+        <div class="flex items-center gap-4 bg-nav-icon2">
+          <span id="copy-count">0</span>
+          <span>Copy</span>
+        </div>
+      </div>
+    </nav>
 
     <script
       src="https://kit.fontawesome.com/8b7e16ba9c.js"
