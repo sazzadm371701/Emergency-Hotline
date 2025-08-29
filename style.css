@@ -128,7 +128,8 @@
   }
 
   .hero {
-    min-height: 20vh;
+    text-align: center;
+    padding-bottom: 2rem;
   }
 
   .card {
