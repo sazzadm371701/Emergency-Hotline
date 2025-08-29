@@ -86,12 +86,14 @@
 /* Copy button specific styles */
 .btn-copy {
   background-color: transparent;
-  color: rgba(0, 166, 62, 1);
-  border: 2px solid rgba(0, 166, 62, 1);
+  color: rgba(85, 85, 85, 0.5);
+  border: 2px solid rgba(85, 85, 85, 0.5);
 }
 
 .btn-copy:hover {
-  background-color: rgba(0, 166, 62, 0.1);
+  background-color: transparent;
+  color: rgba(85, 85, 85, 0.7);
+  border: 2px solid rgba(85, 85, 85, 0.7);
 }
 
 .btn-action:hover {
