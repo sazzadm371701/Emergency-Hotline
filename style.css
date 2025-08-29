@@ -1,0 +1,137 @@
+/* Custom styles */
+.card-category {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.heart-icon:hover {
+  transform: scale(1.1);
+}
+
+.bg-nav-icon {
+  background-color: rgba(65, 255, 107, 0.1);
+  padding: 0.5rem;
+  border-radius: 9999px;
+}
+.bg-nav-icon2 {
+  background-color: #00a63e;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 9999px;
+}
+
+.bg-hero {
+  background: linear-gradient(
+    90deg,
+    rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),
+    rgba(0, 103, 71, 1) 50%,
+    rgba(1, 50, 35, 1) 100%
+  );
+}
+
+.card {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+/* Animation for copy and call buttons */
+.btn-action {
+  transition: all 0.3s ease;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  /* padding: 8px 16px; */
+  border-radius: 8px;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.card-actions {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+  padding: 0 4px;
+}
+
+/* Call button specific styles */
+.btn-bg {
+  background-color: #00a63e;
+}
+
+.btn-call {
+  color: white;
+  border: none;
+}
+
+.btn-call:hover {
+  background-color: #009135;
+}
+
+/* Copy button specific styles */
+.btn-copy {
+  background-color: transparent;
+  color: rgba(85, 85, 85, 0.5);
+  border: 2px solid rgba(85, 85, 85, 0.5);
+}
+
+.btn-copy:hover {
+  background-color: transparent;
+  color: rgba(85, 85, 85, 0.7);
+  border: 2px solid rgba(85, 85, 85, 0.7);
+}
+
+.btn-action:hover {
+  transform: scale(1.05);
+}
+
+/* History item styles */
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-info .number {
+  color: #666;
+  margin-top: 2px;
+}
+
+.time-info {
+  text-align: right;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .hero {
+    min-height: 40vh;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+}
